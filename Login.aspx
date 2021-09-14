@@ -9,8 +9,8 @@
         #form1{
             text-align:center;
             display:inline-block;
-            width: 1287px;
-            height: 485px;
+            width: 100%;
+            height: 100%;
         }
         #txtusername {
             width: 245px;
@@ -86,8 +86,8 @@
 </head>
 <body style="background-color:#002633; align-self:center;font-family: 'Baloo Thambi 2', cursive;">
     <form id="form1" runat="server">
-        <div style="margin-left: 480px; background-color:white; border-radius:6px;" class="auto-style2">
-            <asp:Image ID ="logo" runat="server" src="Resources/logo.png" Height="37px" Width="39px"  />
+        <div style="margin-left: 42%; margin-top:15%; background-color:white; border-radius:6px;" class="auto-style2">
+            <asp:Image ID ="logo" runat="server" src="/Resources/logo.png" Height="37px" Width="39px"  />
             <h2 style=" color:#002633;text-align:center;"  class="auto-style3">Clinica Veterinaria Inter</h2>
             <asp:TextBox ID="txtusername" runat="server" type="text" placeholder="Username"  autocomplete="off"  required="required" Title="Enter your Username"></asp:TextBox>
             <br /><br />
