@@ -11,7 +11,7 @@
             color:white;
         }
         .auto-style21 {
-            margin-left: 251px;
+            margin-left: 25%;
             margin-top: 57px;
         }
         .btn1{

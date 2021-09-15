@@ -3,10 +3,10 @@
          <style type="text/css">
 
         .auto-style11 {
-            width: 825px;
+            width: 60%;
             height: 300px;
             margin-top: 24px;
-            margin-left: 150px;
+            margin-left: 20%;
             background-color:#405C66;
         }
         .select1 {
@@ -66,7 +66,7 @@
             background-color:#405C66;
         }
         .auto-style28 {
-            margin-left: 170px;
+            margin-left: 23%;
         }
         .button {
             color:white;
@@ -88,14 +88,15 @@
         .button:hover{
             background-color:#405C66;
         }
-             .auto-style33 {
-                 width: 710px;
-                 margin-left: 177px;
-             }
+        .auto-style33 {
+            width: 710px;
+            margin-left: 23%;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div>
+         <h2 style="color:white; font-family: 'Baloo Thambi 2', cursive;">Buscar Registro</h2>
          <asp:DropDownList ID="select1" runat="server" Cssclass="select1">
                     <asp:ListItem>Seleccione una opcion</asp:ListItem>
                     <asp:ListItem Value="ID">Purchase ID</asp:ListItem>
@@ -111,7 +112,6 @@
     </div>
     <div>
          <asp:Panel ID="Panel1" runat="server" CssClass="auto-style11" ScrollBars="Horizontal">
-                           <center>
                                 <asp:GridView ID="GVSearch" runat="server" pagesize = "5" AllowPaging="False" 
                                     AllowSorting="True" AutoGenerateSelectButton="True" CellPadding="4" 
                                     ForeColor="#333333" GridLines="None" Width="808px" Height="319px">
@@ -123,7 +123,6 @@
                                     <EditRowStyle BackColor="#999999" />
                                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                                 </asp:GridView>
-                           </center>
                             </asp:Panel>
     </div>
     <br/>
@@ -154,6 +153,7 @@
     <br />
     <br />
        <div style="text-align:center;">
+           <h2 style="color:white; font-family: 'Baloo Thambi 2', cursive;">Modificar Registro</h2>
         <table class="auto-style33">
             <tr>
                 <td><asp:Label runat="server" Text="Purchase ID:" CssClass="lbl"></asp:Label></td>

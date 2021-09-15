@@ -71,6 +71,7 @@ Public Class MCadd
             cmd.ExecuteNonQuery()
             scn.Close()
             ClientScript.RegisterStartupScript(Me.GetType(), "alert", "alert('Se ha añadido la compra');", True)
+
         Catch ex As Exception
             ClientScript.RegisterStartupScript(Me.GetType(), "alert", "alert('Ocurrio un error guardando la compra');", True)
 

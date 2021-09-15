@@ -9,8 +9,7 @@
         .Button{
             width:300px;
             height:50px;
-            margin-left: 20px;
-            margin-top:4px;
+            margin-left: 15%;
             background-color:#002633;
             border-color:transparent;
             color:white;
@@ -21,25 +20,27 @@
             background-color:#405C66;
         }
         .auto-style3 {
-            width: 979px;
-            height: 252px;
-            margin-top: 34px;
+            width: 100%;
+            height: 100%;
             font-family: 'Baloo Thambi 2', cursive;
         }
 
         .auto-style5 {
-            width: 346px;
-            height: 329px;
+            width: 20%;
+            height: 340px;
             background:white;
-            border-radius:3px;
+            border-radius:4px;
             align-content:center;
+            margin-top:10%;
+            margin-left:42%;
         }
         #Bien {
             color:white;
-            margin-left:870px
+            margin-left:85%;
         }
         .auto-style6 {
-            width:1230px;
+            width:100%;
+            margin-top:1%;
         }
         .btnlo {
             Height:32px; 
@@ -58,7 +59,7 @@
     
 </head>
 
-<body style="height: 346px; width: 632px; background-color:#002633; margin-top: 0px; font-family: 'Baloo Thambi 2', cursive;">
+<body style="height: 100%; width: 99%; background-color:#002633; font-family: 'Baloo Thambi 2', cursive;">
 
     <form id="form1" runat="server" class="auto-style3">
         <div class="auto-style6">
@@ -74,7 +75,7 @@
             <asp:Button ID="MC" runat="server" Text="Manejo de Compras" CssClass="Button"/>
             <asp:Button ID="MV" runat="server" Text="Manejo de Ventas" CssClass="Button"/>
         </div>
-        
+        <br />
     </form>
 </body>
 </html>

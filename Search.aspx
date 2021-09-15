@@ -12,7 +12,7 @@
             width: 1149px;
             height: 320px;
             margin-top: 24px;
-            margin-left: 0px;
+            margin-left: 20%;
             background-color:#405C66;
         }
         .select1 {

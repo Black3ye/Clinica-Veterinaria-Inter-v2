@@ -11,7 +11,7 @@
             width: 825px;
             height: 300px;
             margin-top: 24px;
-            margin-left: 250px;
+            margin-left: 32%;
             background-color:#405C66;
         }
         .select1 {
@@ -34,7 +34,7 @@
             font-family: 'Baloo Thambi 2', cursive;
         }
         .auto-style14 {
-            margin-left:550px;
+            margin-left:45%;
             height: 61px;
             width: 429px;
             color:white;
@@ -61,15 +61,14 @@
             background-color:#405C66;
         }
         .auto-style22 {
-            margin-left: 500px;
+            margin-left: 38%;
             border-radius: 3px;
             width: 139px;
             height: 39px;
-            margin-left: 370px;
             font-family: 'Baloo Thambi 2', cursive;
         }
         .auto-style28 {
-            margin-left: 170px;
+            margin-left: 28%;
         }
         .button {
             color:white;
@@ -102,7 +101,7 @@
          }
          .auto-style31 {
              width: 308px;
-             margin-left: 144px;
+             margin-left: 32%;
          }
 
          .auto-style32 {
@@ -111,7 +110,7 @@
              margin-left: 0px;
          }
          .hr{
-            width:1324px;
+            width:100%;
             background-color:aqua;
         }
           #btnback {
@@ -148,17 +147,17 @@
             color:white;
             text-align:center;
             width: 454px;
-            margin-left:445px;
+            margin-left:42%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         #Bien{
-            margin-left:75%;
+            margin-left:85%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         .option{
             Height:32px; 
             Width:33px;
-            margin-left:100%;
+            margin-left:86%;
             background-color:transparent;
             border-color:transparent;
             background-image:url('Resources/report.png');
@@ -175,7 +174,7 @@
             color:white;
             background-color:#101010;
             border-color:transparent;
-            margin-left:100%;
+            margin-left:92%;
             font-family: 'Baloo Thambi 2', cursive;
        }
        .rep:hover{
@@ -183,7 +182,7 @@
        }
          </style>
 </head>
-<body style="background-color:#002633; width: 1200px; height: 500px;">
+<body style="background-color:#002633; width: 99%; height: 99%;">
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Bien" runat="server" Text="Bienvenido:  " ForeColor="white"></asp:Label><asp:Label ID="Nameuser" runat="server" ForeColor="white" font-family="'Baloo Thambi 2', cursive"></asp:Label><span title="Log Out" ><asp:Button ID="btnlo" runat="server" Text=" " CssClass="btnlo"/></span>

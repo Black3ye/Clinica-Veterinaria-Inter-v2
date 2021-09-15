@@ -11,13 +11,13 @@
         .auto-style2 {
             width: 1114px;
             height: 99px;
-            margin-left: 87px;
+            margin-left: 24%;
             margin-top: 12px;
             text-align:center;
         }
         #form1 {
             height: 219px;
-            width: 1170px;
+            width: 99%;
         }
         .btn{
         
@@ -34,18 +34,14 @@
         }
         .auto-style3 {
             width: 299px;
-            margin-left: 530px;
+            margin-left: 45%;
             color:white;
             font-family: 'Baloo Thambi 2', cursive;
         }
-
-        .auto-style4 {
-            width: 1235px;
-        }
         .auto-style5 {
             height: 34px;
-            width: 1330px;
-            margin-left: 0px;
+            width: 69%;
+            margin-left: 20%;
             margin-top: 2px;
         }
         #btnback {
@@ -65,7 +61,7 @@
         }
 
         .auto-style19 {
-            width: 1325px;
+            width: 99%;
             border: 1px solid white;
         }
         .btnlo {
@@ -84,7 +80,7 @@
             background-color:#405C66;
         }
         .divlo{
-            margin-left:880px;
+            margin-left:85%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         .auto-style20 {
@@ -93,7 +89,7 @@
         .option{
             Height:32px; 
             Width:33px;
-            margin-left:100%;
+            margin-left:85%;
             background-color:transparent;
             border-color:transparent;
             background-image:url('Resources/report.png');
@@ -111,7 +107,7 @@
             background-color:#101010;
             border-color:transparent;
             width:180px;
-            margin-left:100%;
+            margin-left:90%;
             font-family: 'Baloo Thambi 2', cursive;
        }
        .rep:hover{
@@ -119,11 +115,11 @@
        }
         </style>
 </head>
-<body style="background-color:#002633; width: 1200px; height: 500px;">
+<body style="background-color:#002633; width: 99%; height: 500px;">
 
     
 
-    <form id="form1" runat="server" class="auto-style4">
+    <form id="form1" runat="server" >
         <div class="divlo">
             <asp:Label ID="Bien" runat="server" Text="Bienvenido:  " ForeColor="white"></asp:Label><asp:Label ID="Nameuser" runat="server" ForeColor="white"></asp:Label>
             <span title="Log Out" >
@@ -141,10 +137,9 @@
                 <tr><asp:Button ID="btnadd" runat="server" CssClass="btn"  Text="Nueva Venta"/><asp:Button ID="btnSEdit" runat="server" Text="Buscar/Editar Venta" CssClass="btn"/>
                     <asp:Button ID="btnDV" runat="server" Text="Detalles de Venta" CssClass="btn"/>
                 </tr>
-            </table>
-            <hr class="auto-style19" />
-            
+            </table> 
         </div>
+        <hr class="auto-style19" />
         <div class="auto-style2">
             <br />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

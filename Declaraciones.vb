@@ -13,7 +13,7 @@
 
     'Location of the database
     'Jose Computer
-    Public Const Coneccion As String = "Server=(localdb)\MSSQLLocalDB; Database= clinica; Integrated Security = True"
+    Public Const Coneccion As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Universidad\Concentracion\Web Programming with Databases\Clinica Veterinaria Inter v2\App_Data\Clinica.mdf;Integrated Security=True;Connect Timeout=30"
 
     'Profesor Computer
     'Public Const Coneccion As String = "Password=12345678;Persist Security Info=True;User ID=sa;Initial Catalog=Clinica;Data Source=NODE33\SQLEXPRESS"

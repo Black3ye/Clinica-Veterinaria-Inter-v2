@@ -11,7 +11,7 @@
             width: 825px;
             height: 300px;
             margin-top: 24px;
-            margin-left: 250px;
+            margin-left: 30%;
             background-color:#405C66;
         }
         .select1 {
@@ -34,7 +34,7 @@
             font-family: 'Baloo Thambi 2', cursive;
         }
         .auto-style14 {
-            margin-left:550px;
+            margin-left:45%;
             height: 61px;
             width: 429px;
             color:white;
@@ -62,15 +62,14 @@
             background-color:#405C66;
         }
         .auto-style22 {
-            margin-left: 500px;
+            margin-left: 38%;
             border-radius: 3px;
             width: 139px;
             height: 39px;
-            margin-left: 370px;
             font-family: 'Baloo Thambi 2', cursive;
         }
         .auto-style28 {
-            margin-left: 170px;
+            margin-left: 26%;
         }
         .button {
             color:white;
@@ -83,23 +82,23 @@
         .txt {
             Height:30px; 
             border-radius:3px;
-            margin-left:150px;
+            margin-left:25%;
         }
         .lblMT {
           color:white;
           font-family: 'Baloo Thambi 2', cursive;
-          margin-left:150px;
+          margin-left:25%;
         }
         .lblMTN{
             color:white;
             font-family: 'Baloo Thambi 2', cursive;
-            margin-left:250px;
+            margin-left:30%;
         }
         .button:hover{
             background-color:#405C66;
         }
          .hr{
-            width:1324px;
+            width:99%;
             background-color:aqua;
         }
           #btnback {
@@ -123,7 +122,7 @@
             Width:33px;
             background-color:transparent;
             border-color:transparent;
-            background-image:url('export.png');
+            background-image:url('Resources/export.png');
             background-size:100%;
         }
         
@@ -134,17 +133,17 @@
             color:white;
             text-align:center;
             width: 454px;
-            margin-left:445px;
+            margin-left:40%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         #Bien{
-            margin-left:930px;
+            margin-left:85%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         .option{
             Height:32px; 
             Width:33px;
-            margin-left:100%;
+            margin-left:87%;
             background-color:transparent;
             border-color:transparent;
             background-image:url('Resources/report.png');
@@ -161,7 +160,7 @@
             color:white;
             background-color:#101010;
             border-color:transparent;
-            margin-left:100%;
+            margin-left:92%;
             font-family: 'Baloo Thambi 2', cursive;
        }
        .rep:hover{
@@ -169,7 +168,7 @@
        }
         </style>
 </head>
-<body style="background-color:#002633; width: 1200px; height: 500px;">
+<body style="background-color:#002633; width: 99%; height:99%;">
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Bien" runat="server" Text="Bienvenido:  " ForeColor="white"></asp:Label><asp:Label ID="Nameuser" runat="server" ForeColor="white" font-family="'Baloo Thambi 2', cursive"></asp:Label>
@@ -245,7 +244,7 @@
     <br />
     <br />
     <div>
-        <asp:Label ID="lblID" runat="server" Text="Type ID:" CssClass="lblMT" margin-left="150px"></asp:Label><asp:Label ID="lblTN" runat="server" Text="Type Name:" CssClass="lblMTN"></asp:Label>
+        <asp:Label ID="lblID" runat="server" Text="Type ID:" CssClass="lblMT"></asp:Label><asp:Label ID="lblTN" runat="server" Text="Type Name:" CssClass="lblMTN"></asp:Label>
         <br />
         <asp:TextBox ID="TextBox1" runat="server" CssClass="txt" Width="163px" Enabled="False"></asp:TextBox><asp:TextBox ID="TextBox2" runat="server" CssClass="txt" Width="255px" Enabled="False"></asp:TextBox>
     </div>
