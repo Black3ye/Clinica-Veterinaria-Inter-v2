@@ -99,7 +99,7 @@
             background-color:#405C66;
         }
          .hr{
-            width:1324px;
+            width:99%;
             background-color:aqua;
         }
           #btnback {
@@ -134,7 +134,7 @@
             color:white;
             text-align:center;
             width: 454px;
-            margin-left:445px;
+            margin-left:40%;
             font-family: 'Baloo Thambi 2', cursive;
         }
         #Bien{
@@ -144,7 +144,7 @@
         .option{
             Height:32px; 
             Width:33px;
-            margin-left:100%;
+            margin-left:87%;
             background-color:transparent;
             border-color:transparent;
             background-image:url('Resources/report.png');
@@ -161,7 +161,7 @@
             color:white;
             background-color:#101010;
             border-color:transparent;
-            margin-left:100%;
+            margin-left:92%;
             font-family: 'Baloo Thambi 2', cursive;
        }
        .rep:hover{
@@ -169,7 +169,7 @@
        }
         </style>
 </head>
-<body style="background-color:#002633; width: 1200px; height: 500px;">
+<body style="background-color:#002633; width: 99%; height:99%;">
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Bien" runat="server" Text="Bienvenido:  " ForeColor="white"></asp:Label><asp:Label ID="Nameuser" runat="server" ForeColor="white" font-family="'Baloo Thambi 2', cursive"></asp:Label>

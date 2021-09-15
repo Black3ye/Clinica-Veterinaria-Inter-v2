@@ -21,7 +21,7 @@
             background-color:#405C66;
         }
         .auto-style3 {
-            width: 979px;
+            width: 100%;
             height: 252px;
             margin-top: 34px;
             font-family: 'Baloo Thambi 2', cursive;
@@ -33,13 +33,15 @@
             background:white;
             border-radius:3px;
             align-content:center;
+            margin-top:10%;
+            margin-left:42%;
         }
         #Bien {
             color:white;
-            margin-left:870px
+            margin-left:85%;
         }
         .auto-style6 {
-            width:1230px;
+            width:100%;
         }
         .btnlo {
             Height:32px; 
@@ -58,7 +60,7 @@
     
 </head>
 
-<body style="height: 346px; width: 632px; background-color:#002633; margin-top: 0px; font-family: 'Baloo Thambi 2', cursive;">
+<body style="height: 100%; width: 99%; background-color:#002633; margin-top: 0px; font-family: 'Baloo Thambi 2', cursive;">
 
     <form id="form1" runat="server" class="auto-style3">
         <div class="auto-style6">

@@ -42,10 +42,10 @@
         
         .auto-style26 {
             width: 655px;
-            margin-left: 173px;
+            margin-left: 32%;
         }
         .auto-style28 {
-        margin-left: 110px;
+        margin-left: 25%;
     }
         
     </style>
