@@ -39,8 +39,7 @@
             margin-left:85%;
         }
         .auto-style6 {
-            width:100%;
-            margin-top:1%;
+            width:1230px;
         }
         .btnlo {
             Height:32px; 
@@ -59,7 +58,7 @@
     
 </head>
 
-<body style="height: 100%; width: 99%; background-color:#002633; font-family: 'Baloo Thambi 2', cursive;">
+<body style="height: 346px; width: 632px; background-color:#002633; margin-top: 0px; font-family: 'Baloo Thambi 2', cursive;">
 
     <form id="form1" runat="server" class="auto-style3">
         <div class="auto-style6">
